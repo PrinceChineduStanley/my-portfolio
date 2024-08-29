@@ -130,11 +130,10 @@ img{
 
     }
     .textarea{
-        width: 80%;
+        width: 90%;
         height: 70px;
         border: 1px solid red;
-        margin-left:10%;
-        margin-top: 5%;
+        margin-left:5%;
         font-size: small;
         text-align: center;
     }
@@ -142,7 +141,7 @@ img{
         width: 110px;
         height: 130px;
         border: 1px solid white;
-        margin-left: 155px;
+        margin-left: 150px;
         display: flex;
         flex-direction: column;
     }
