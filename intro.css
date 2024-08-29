@@ -68,14 +68,14 @@
 @media screen and (max-width: 576px){
     .introsection{
         width: 100%;
-        height: 1000px;
+        height: 950px;
         overflow-y: hidden;
         overflow-x: hidden;
         /* border: 1px solid red; */
     }
     .innersection{
         width: 95%;
-        height: 900px;
+        height: 850px;
         margin-top: 10%;
         overflow-y: hidden;
         overflow-x: hidden;
