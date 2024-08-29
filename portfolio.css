@@ -108,7 +108,7 @@ img{
         width: 60px;
         height: 60px;
         border: 2px solid white;
-        margin-left: 213px;
+        margin-left: 176px;
         margin-top: 20%;
         
     }
@@ -139,7 +139,7 @@ img{
         width: 120px;
         height: 150px;
         border: 1px solid white;
-        margin-left: 185px;
+        margin-left: 150px;
         display: flex;
         flex-direction: column;
     }
@@ -166,7 +166,7 @@ img{
         width: 220px;
         height: 20px;
         /* border: 1px solid red; */
-        margin-left: 31%;
+        margin-left: 28%;
         margin-top: 45%;
         font-size: small;
     }
