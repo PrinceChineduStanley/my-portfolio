@@ -29,5 +29,15 @@ if (click3==false){
 }
 }
 
+function contactclick(){
+    click4 =false
+
+if (click4==false){
+
+    location.href = "contact.html"
+}
+}
+
+
 
 
