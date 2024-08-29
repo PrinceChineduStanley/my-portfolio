@@ -11,3 +11,13 @@ if (click==false){
 }
 }
 
+function workclick(){
+    click2 =false
+
+if (click2==false){
+
+    location.href = "work.html"
+}
+}
+
+

@@ -1,0 +1,95 @@
+.worksection{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(175, 173, 173);
+    display: flex;
+    justify-content: center;
+}
+.innersection2{
+    width: 50%;
+    height: 950px;
+    background-color: rgb(83, 81, 81);
+    border-radius: 10px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.xicon2{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 92%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.worktext{
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid white; */
+    margin: 50px;
+    color: white;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.workimage{
+    width: 80%;
+    height: 600px;
+    border: 1px solid red;
+    margin-left: 10%;
+}
+
+.message2{
+    width: 70%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-left: 15%;
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px){
+    .worksection{
+        width: 100%;
+        height: 1000px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        /* border: 1px solid red; */
+    }
+    .innersection2{
+        width: 100%;
+        height: 930px;
+        margin-top: 10%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+        /* border: 1px solid red; */
+    }
+    .xicon{
+        margin-left: 89%;
+    }
+    .worktext{
+        margin-left: 5%;
+    }
+    .workimage{
+        width: 90%;
+        height: 500px;
+        margin-left: 5%;
+        /* border: 1px solid red; */
+    }
+    .message2{
+        width: 80%;
+        height: 100px;
+        border: 1px solid red;
+        margin-left: 10%;
+        margin-top: 10%;
+        font-size: small;
+    }
+
+
+}
