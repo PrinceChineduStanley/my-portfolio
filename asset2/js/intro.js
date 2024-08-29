@@ -1,7 +1,7 @@
-// const icon =document.getElementById("icon")
+// const cancel1 =document.getElementById("cancel1")
 
-// function cancel(){
-//     clickcancel = true
+// function goback(g){
+//     clickcancel = false
 
 //     if(clickcancel==false){
 //     location.href =index.html

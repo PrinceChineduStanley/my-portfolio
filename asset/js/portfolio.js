@@ -11,13 +11,3 @@ if (click==false){
 }
 }
 
-
-function cancel(){
-    clickcancel = true
-
-    if(clickcancel==false){
-    location.href =index.html
-    }
-
-}
-
