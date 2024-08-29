@@ -20,4 +20,14 @@ if (click2==false){
 }
 }
 
+function aboutclick(){
+    click3 =false
+
+if (click3==false){
+
+    location.href = "about.html"
+}
+}
+
+
 
