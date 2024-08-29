@@ -1,11 +1,23 @@
 const intro =document.getElementById("intro")
-console.log(intro)
+const icon =document.getElementById("icon")
+
 
 function introclick(){
     click =false
-    
+
 if (click==false){
 
     location.href = "intro.html"
 }
 }
+
+
+function cancel(){
+    clickcancel = true
+
+    if(clickcancel==false){
+    location.href =index.html
+    }
+
+}
+
