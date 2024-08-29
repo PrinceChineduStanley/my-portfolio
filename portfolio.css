@@ -167,8 +167,8 @@ img{
     .footerbox{
         width: 240px;
         height: 20px;
-        border: 1px solid red;
-        margin-left: 27%;
+        /* border: 1px solid red; */
+        margin-left: 25%;
         margin-top: 45%;
         font-size: small;
     }
