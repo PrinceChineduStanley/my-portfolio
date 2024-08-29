@@ -110,7 +110,7 @@ img{
         width: 60px;
         height: 60px;
         border: 2px solid white;
-        margin-left: 170px;
+        margin-left: 169px;
         margin-top: 20%;
         
     }
@@ -165,10 +165,10 @@ img{
 
     }
     .footerbox{
-        width: 220px;
+        width: 240px;
         height: 20px;
-        /* border: 1px solid red; */
-        margin-left: 29%;
+        border: 1px solid red;
+        margin-left: 27%;
         margin-top: 45%;
         font-size: small;
     }
