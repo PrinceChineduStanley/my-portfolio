@@ -73,18 +73,18 @@
     }
     .innersection{
         width: 95%;
-        height: 900px;
+        height: 920px;
         margin-top: 10%;
         /* border: 1px solid red; */
     }
     .xicon{
-        margin-left: 90%;
+        margin-left: 98%;
     }
     .introtext{
         margin-left: 5%;
     }
     .myimage{
-        width: 80%;
+        width: 90%;
         height: 500px;
         border: 1px solid red;
     }
