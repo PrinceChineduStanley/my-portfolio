@@ -26,6 +26,11 @@
     border-radius: 50%;
 }
 
+#cancel4{
+    border-radius: 50%;
+}
+
+
 .contacttext{
     width: 100px;
     height: 40px;
@@ -129,24 +134,32 @@
     /* border: 1px solid white; */
     display: flex;
     justify-content: center;
-    margin-left: 25%;
+    margin-left: 24%;
     margin-top: 5%;
 }
 .facebook{
-    width: 40px;
-    height: 40px;
-    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 25px;
     margin-right: 10px;
+    margin-top: 5px;
 }
 #fb{
     border-radius: 50%;
 }
 
 .whatsapp{
-    width: 40px;
-    height: 40px;
-    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
     border-radius: 25px;
     margin-right: 10px;
 
@@ -157,11 +170,16 @@
 
 
 .linkedin{
-    width: 40px;
-    height: 40px;
-    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid white; */
     border-radius: 25px;
     margin-right: 10px;
+    display: flex;
+    margin-top:6px;
+    justify-content: center;
+    align-items: center;
+
 
 }
 #linked{
@@ -169,10 +187,16 @@
 }
 
 .github{
-    width: 40px;
-    height: 40px;
-    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid white; */
     border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+
+
 
 }
 #git{
@@ -275,8 +299,79 @@
 
     }
     .socialmedia{
-        margin-top: 10%;
+        width: 50%;
+        height: 50px;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+        margin-left: 24%;
+        margin-top: 5%;
     }
-
+    .facebook{
+        width: 25px;
+        height: 25px;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    #fb{
+        border-radius: 50%;
+    }
+    
+    .whatsapp{
+        width: 25px;
+        height: 25px;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6px;
+        border-radius: 25px;
+        margin-right: 10px;
+    
+    }
+    #whats{
+        border-radius: 50%;
+    }
+    
+    
+    .linkedin{
+        width: 25px;
+        height: 25px;
+        /* border: 1px solid white; */
+        border-radius: 25px;
+        margin-right: 10px;
+        display: flex;
+        margin-top:6px;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    #linked{
+        border-radius: 50%;
+    }
+    
+    .github{
+        width: 25px;
+        height: 25px;
+        /* border: 2px solid white; */
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6px;
+    
+    
+    
+    }
+    #git{
+        border-radius: 50%;
+    }
+    
 
 }
