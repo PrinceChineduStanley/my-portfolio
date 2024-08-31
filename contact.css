@@ -85,8 +85,9 @@
     height: 170px;
     /* border: 1px solid red; */
     color: white;
-    margin-left: 5%;
+    margin-left: 10%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
 
 }
@@ -94,7 +95,7 @@
     width: 90%;
     height: 200px;
     /* border: 1px solid red; */
-    margin-left: 5%;
+    /* margin-left: 5%; */
     margin-top: 5%;
     border-radius: 5px;
 
@@ -122,6 +123,24 @@
     border-radius: 5px;
     background-color: gray;
 }
+.socialmedia{
+    width: 50%;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    border-radius: 25px;
+}
+#fb{
+    border-radius: 50%;
+}
 
 
 @media screen and (max-width: 576px){
@@ -146,6 +165,7 @@
     }
     .contacttext{
         margin-left: 5%;
+        font-size: medium;
     }
     .nameemail{
         width: 90%;
@@ -179,10 +199,19 @@
 
     .message{
         width: 70%;
-        height: 100px;
+        height: 120px;
         /* border: 1px solid red; */
-        margin-left: 12%;
+        display: flex;
+        justify-content: center;
+        margin-left: 16%;
         font-size: small;
+    }
+    .message input{
+        width: 90%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        
     }
     .buttons{
         width: 65%;
@@ -190,7 +219,7 @@
         /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
-        margin-left: 15%;
+        margin-left: 16%;
     }
     #send{
         width: 100%;
