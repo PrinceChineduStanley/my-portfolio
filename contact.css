@@ -32,7 +32,7 @@
     /* border: 1px solid white; */
     margin: 50px;
     color: white;
-    font-size: x-large;
+    font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -126,7 +126,7 @@
 .socialmedia{
     width: 50%;
     height: 50px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     justify-content: center;
     margin-left: 25%;
@@ -135,12 +135,51 @@
 .facebook{
     width: 40px;
     height: 40px;
-    /* border: 1px solid red; */
+    border: 1px solid white;
     border-radius: 25px;
+    margin-right: 10px;
 }
 #fb{
     border-radius: 50%;
 }
+
+.whatsapp{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-right: 10px;
+
+}
+#whats{
+    border-radius: 50%;
+}
+
+
+.linkedin{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-right: 10px;
+
+}
+#linked{
+    border-radius: 50%;
+}
+
+.github{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+
+}
+#git{
+    border-radius: 50%;
+}
+
+
 
 
 @media screen and (max-width: 576px){
